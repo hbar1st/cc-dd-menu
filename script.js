@@ -65,5 +65,6 @@ function createCCMenu(
 }
 
 function getCCImgObj() {
-  return { src: "./coptic-menu-icon.svg", alt: "drop down menu icon" };
+  const image = new URL("./coptic-menu-icon.svg", import.meta.url);
+  return { src: `${image}`, alt: "drop down menu icon" };
 }
