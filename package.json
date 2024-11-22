@@ -1,0 +1,23 @@
+{
+  "name": "coptic-cross-drop-down-menu",
+  "version": "1.0.0",
+  "description": "A drop-down menu for use in Coptic Church applications and websites.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hbar1st/cc-dd-menu.git"
+  },
+  "keywords": [
+    "coptic",
+    "menu"
+  ],
+  "author": "Hanaa Barakat",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/hbar1st/cc-dd-menu/issues"
+  },
+  "homepage": "https://github.com/hbar1st/cc-dd-menu#readme"
+}
