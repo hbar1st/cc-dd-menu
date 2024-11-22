@@ -119,3 +119,28 @@ function getImgObj() {
 }
 createCCMenu(document, getListArray(), undefined, "#my-parent-element", getImgObj());
 ```
+
+A webpack example:
+
+```
+import "./styles.css";
+import { createCCMenu } from "coptic-cross-drop-down-menu";
+import churchMenuIcon from "./assets/church-menu.svg";
+
+function getListArray() {
+  const arr = [];
+
+  for (let i = 0; i < 7; i++) {
+    const liEl = document.createElement("li");
+    liEl.innerText = "menu item";
+
+    arr.push(liEl);
+  }
+  return arr;
+}
+
+function getImgObj() {
+  return { src: `${churchMenuIcon}`, alt: "church menu icon" };
+}
+createCCMenu(document, getListArray(), undefined, undefined, getImgObj());
+```
