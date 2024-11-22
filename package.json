@@ -1,6 +1,6 @@
 {
   "name": "coptic-cross-drop-down-menu",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A drop-down menu for use in Coptic Church applications and websites.",
   "main": "script.js",
   "scripts": {
